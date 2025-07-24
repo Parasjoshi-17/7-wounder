@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>7 Wonders of the World</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="index.js" rel="stylesheet" />
+  <!-- Leaflet CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <div class="logo">7 Wonders</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    
+    <section class="intro animate-scroll" id="intro">
+      <h2>7 Wonders of the World</h2>
+     <p>
+      Explore the magnificent wonders that showcase the brilliance of human creativity and the beauty of our planet.
+      From ancient marvels to modern masterpieces, these sites are a testament to our shared heritage.</p>
+  <h2>Importance of Heritage Sites</h2>
+  <p>
+    Heritage sites are invaluable treasures that preserve cultural, historical, and architectural significance.
+    They connect us to our past, inspire future generations, and promote global tourism and education.
+  </p>
+</section>
+
+  </header>
+
+  <!-- Importance Section -->
+
+  <!-- Wonders Section -->
+  <section class="wonders">
+    <div class="wonder">
+      <img src="/assets/images/gc.jpg" alt="Great Wall of China" />
+      <div class="wonder-content">
+        <h3>Great Wall of China</h3>
+        <p>One of the longest structures ever built, showcasing the strength of ancient China.</p>
+      </div>
+    </div>
+
+    <div class="wonder">
+      <img src="./assets/images/taj.jpg" alt="Taj Mahal" />
+      <div class="wonder-content">
+        <h3>Taj Mahal</h3>
+        <p>A symbol of eternal love and a masterpiece of Mughal architecture in India.</p>
+      </div>
+    </div>
+
+    <div class="wonder">
+      <img src="./assets/images/col.jpg" alt="Colosseum" />
+      <div class="wonder-content">
+        <h3>Colosseum</h3>
+        <p>An iconic Roman amphitheater that hosted gladiator fights and public spectacles.</p>
+      </div>
+    </div>
+
+    <div class="wonder">
+      <img src="./assets/images/b.jpg" alt="Christ the Redeemer" />
+      <div class="wonder-content">
+        <h3>Christ the Redeemer</h3>
+        <p>A towering statue in Rio de Janeiro symbolizing peace and faith.</p>
+      </div>
+    </div>
+
+    <div class="wonder">
+      <img src="./assets/images/c.jpg" alt="Machu Picchu" />
+      <div class="wonder-content">
+        <h3>Machu Picchu</h3>
+        <p>An Incan city set high in the Andes Mountains, known for its historical mystery and beauty.</p>
+      </div>
+    </div>
+
+    <div class="wonder">
+      <img src="./assets/images/itza.jpg" alt="Chichen Itza" />
+      <div class="wonder-content">
+        <h3>Chichen Itza</h3>
+        <p>A Mayan pyramid in Mexico representing ancient knowledge and astronomy.</p>
+      </div>
+    </div>
+
+    <div class="wonder">
+      <img src="./assets/images/itza.jpg" alt="Petra" />
+      <div class="wonder-content">
+        <h3>Petra</h3>
+        <p>A rock-cut city in Jordan famous for its rose-colored stone architecture.</p>
+      </div>
+    </div>
+  </section>
+  <!-- Back to Top Button -->
+<button id="backToTop" title="Back to top">⬆</button>
+<section class="map-section">
+  <h2 style="text-align: center; margin: 20px;">Explore the 7 Wonders on Map</h2>
+  <div id="map"></div>
+</section>
+
+</body>
+</html>
+
